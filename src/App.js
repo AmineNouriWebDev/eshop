@@ -4,6 +4,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './header/Header';
 import Navbar from './header/Navbar';
 
+
+
+
 function App() {
   return (
     <div className="App">
@@ -11,9 +14,13 @@ function App() {
     <Header />
     </header>
     <nav>
-      <Navbar />
+    <Navbar />
     </nav>
-    <section></section>
+    <section>
+      <div>
+
+      </div>
+    </section>
     <footer></footer>
     </div>
   );

@@ -27,6 +27,7 @@
 .site-name i{
     font-size: 20px;
     margin: 0 5px;
+    cursor: pointer;
 }
 .logo-login{
     font-size: 30px;
@@ -35,4 +36,24 @@
 }
 .logo-login i{
     margin-right: 15px;
+    cursor: pointer;
+}
+@media(max-width:920px){
+    .logo-login {
+            font-size: 20px;
+        }
+
+}
+@media(max-width:760px) {
+
+    .site-name {
+            width: 300px;
+        }
+}
+@media(max-width:560px) {
+
+    .site-name {
+        display: none;
+    }
+
 }
