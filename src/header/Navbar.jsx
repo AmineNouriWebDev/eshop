@@ -33,7 +33,7 @@ class Example extends React.Component {
             </DropdownToggle>
             <DropdownMenu>
               <DropdownItem header>Appareils électroniques</DropdownItem>
-              <DropdownItem>Ordinateurs</DropdownItem>
+              <DropdownItem active>Ordinateurs</DropdownItem>
               <DropdownItem>Smartphones</DropdownItem>
               <DropdownItem>Tablettes</DropdownItem>
               <DropdownItem header>Electroménager</DropdownItem>

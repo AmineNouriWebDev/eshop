@@ -3,7 +3,11 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./header/Header";
 import Navbar from "./header/Navbar";
-import Carousel from "./header/Carousel";
+import Carrousel from "./header/Carousel";
+
+
+
+
 
 function App() {
   return (
@@ -15,9 +19,7 @@ function App() {
         <Navbar />
       </div>
       <section>
-        <div>
-          <Carousel />
-        </div>
+      <Carrousel />
       </section>
       <footer></footer>
     </div>
